@@ -2,8 +2,7 @@ FROM node:22-bullseye-slim
 
 LABEL name="Angular dev environment" \
   description="This image can be used to create a dev environment for building Angular." \
-  vendor="angular" \
-  version="1.0"
+  vendor="angular"
 
 # Set working directory
 WORKDIR /app
