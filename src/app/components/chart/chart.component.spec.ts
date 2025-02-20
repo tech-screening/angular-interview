@@ -1,15 +1,15 @@
 import { TestBed } from '@angular/core/testing';
-import { AppComponent } from './app.component';
+import { ChartComponent } from './chart.component';
 
-describe('AppComponent', () => {
+describe('ChartComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AppComponent],
+      imports: [ChartComponent],
     }).compileComponents();
   });
 
-  it('should create the app', () => {
-    const fixture = TestBed.createComponent(AppComponent);
+  it('should create chart component', () => {
+    const fixture = TestBed.createComponent(ChartComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });
